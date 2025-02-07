@@ -4,7 +4,7 @@
 66022073 นายวงศพัทร์ ชิตท้วม Full-stack
 
 # การจัดโฟล์เดอร์
-Open floder เลือกโฟล์เดอร์ lastboss
+Open floder เลือกโฟล์เดอร์ Last
 # install
 npm install express nodemon ejs mysql2 bcryptjs jsonwebtoken cookie-parser body-parser
 # Run server
@@ -16,9 +16,9 @@ http://localhost:3000/login
 หน้าHome
 http://localhost:3000/home
 
-#DataBase
+# DataBase
 ที่ต้องสร้าง
-สร้าง Database 
+สร้าง Database Name
 Smart_combine
 
 Table users
@@ -53,12 +53,19 @@ CREATE TABLE machines (
     image VARCHAR(255)
 );
 
-#.env
+# .env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=
 DB_DATABASE=smart_combine
 JWT_SECRET=your_jwt_secret
+
+# Admin 
+แอดมินจะสามารถเข้าหน้า Admin dashboard ได้ เพื่อแก้ไขข้อมูล
+http://localhost:3000/dashboard
+
+# User
+Register แล้ว login ใช้งานเว็ปไซต์ได้ปกติ
 
 
 # ขอบคุณครับ
